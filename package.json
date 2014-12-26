@@ -1,0 +1,22 @@
+{
+  "name": "octools",
+  "version": "1.0.0",
+  "description": "Online Cloud command line tools",
+  "main": "octools.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@forge.effervens.com:7999/oc/octools.git"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "octools": "octools.js"
+  },
+  "author": "L.Maitre <lmaitre@effervens.com>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.5.1"
+  }
+}
