@@ -21,7 +21,7 @@ The default store file is located at $HOME/.octools/store.json
   Commands:
 
     tokens                   list tokens
-    install <token>          install one or more tokens in the store
+    install <token>          install one token in the store
     remove <token>           remove one token from the store
     refresh                  refresh org and servers for all the tokens)
     generate <scope> <type>  generate for the given scope ("all" or a name) and type ("ansible" or "dns")
