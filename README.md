@@ -6,8 +6,11 @@ A small utility to get informations on nodes on Online Cloud via the API they pr
 
 ## Installation
 
-This utilityrequires nodejs and npm. Install them for your platform.
-To install, checkout the project and run npm install -g.
+This utility requires nodejs and npm. Install them for your platform.
+When, proceed to install : checkout the project with git and run :
+    sudo npm install -g.
+
+The default store file is located at $HOME/.octools/store.json
 
 ## Help
 
