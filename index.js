@@ -28,9 +28,15 @@ program.command('tokens').description('list tokens').action(function() {
 });
 
 program.command('install <token>').description(
-		'install one or more tokens in the store').action(function(token) {
-	console.log('install "%s"', token);
-	octools.addToken( token );
+	'install one or more tokens in the store').action(function(token) {
+		console.log('install "%s"', token);
+		octools.addToken( token );
+});
+
+program.command('remove <token>').description(
+	'remove one token from the store').action(function(token) {
+		console.log('install "%s"', token);
+		octools.removeToken( token );
 });
 
 program.command('refresh <scope>').description(
@@ -50,10 +56,11 @@ program.command('search <query>').description(
 	console.log('search "%s"', query);
 });
 
-program.command('get <scope> <type>').description(
+program.command('get <scope> [type]').description(
 		'get the infos for the given scope and type').action(
-		function(scope, type) {
-			console.log('Scope "%s", Type "%s"', scope, type);
+		function(scope,type) {
+			console.log('get "%s"%s',scope, ( type != null ? " of type " + type : ""));
+			octools.get(scope,type);
 		});
 
 /*
