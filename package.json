@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@forge.effervens.com:7999/oc/octools.git"
+    "url": "https://github.com/rastaman/octools.git"
   },
   "preferGlobal": true,
   "bin": {
