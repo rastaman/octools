@@ -4,6 +4,11 @@
 
 A small utility to get informations on nodes on Online Cloud via the API they provide.
 
+## Installation
+
+This utilityrequires nodejs and npm. Install them for your platform.
+To install, checkout the project and run npm install -g.
+
 ## Help
 
   Usage: octools [options] [command]
