@@ -12,11 +12,13 @@
   },
   "preferGlobal": true,
   "bin": {
-    "octools": "octools.js"
+    "octools": "index.js"
   },
   "author": "L.Maitre <lmaitre@effervens.com>",
   "license": "ISC",
   "dependencies": {
-    "commander": "^2.5.1"
+    "commander": "^2.5.1",
+    "request": "^2.51.0",
+    "printf": "^0.2.0"
   }
 }
