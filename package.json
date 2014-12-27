@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "commander": "^2.5.1",
-    "request": "^2.51.0",
-    "printf": "^0.2.0"
+    "printf": "^0.2.0",
+    "request": "^2.51.0"
   }
 }
