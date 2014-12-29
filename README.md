@@ -6,7 +6,7 @@ A small utility to get informations on nodes on Online Cloud via the API they pr
 
 ## Help
 
-  Usage: octools [options] [command]
+  Usage: octools \[options\] \[command\]
 
   Commands:
 
