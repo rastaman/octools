@@ -63,4 +63,11 @@ program.command('get <scope> [type]').description(
 				octools.get(scope,type);
 			});
 
+program.command('dump <resource> [scope]').description(
+'dump full information for the given resource for all or the specified token)').action(function( resource, scope ) {
+	if ( program.verbose )
+		console.log('dump %s', resource);
+	octools.dump( resource, scope );
+});
+
 program.parse(process.argv);
